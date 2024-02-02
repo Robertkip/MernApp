@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 30rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.button {
+    margin: 0px 20px;
+    position: block;
+    color: white;
+    background-color: blue;
+    height: 5vh;
+    width: 10rem;
+    align-items: self-end;
+
+}
+.button:hover {
+    color: black;
+}
+.card-body {
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 0px 20px;
+}
+.mb-3 {
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+    font-size: larger;
+}
+.mb-3 .label {
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+    font-size: larger;
+}
+.mb-3 .input {
+    width: 30px;
+    gap: 1.5rem;
+    font-size: larger;
+}
+
+.container .button {
+    position: absolute;
+} 
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin: 0px 20px;
+}
+
