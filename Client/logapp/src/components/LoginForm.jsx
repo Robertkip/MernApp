@@ -14,7 +14,7 @@ const LoginForm = () => {
     }
 
 
-  return (
+   return (
     <div className='wrapper'>
         <form onSubmit={handleSubmit}>
             <h1>Login</h1>
@@ -34,14 +34,15 @@ const LoginForm = () => {
                 <a href="#" >Forget Password</a>
             </div>
             <div className='form-group'>
-                <button type='submit' className='btn btn-primary'>Login</button>
+                <button type='submit'>Login</button>
             </div>
             <div className="form-group">
                 <p>Don't have account <a href="register">Create an account</a></p>
             </div>
         </form>
         </div>
-  )
+
+  );
 }
 
 export default LoginForm

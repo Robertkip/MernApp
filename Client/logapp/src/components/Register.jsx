@@ -33,15 +33,10 @@ function handleSubmit(event) {
             <FaLock />
         </div>
         <div className='form-group'>
-            <label>
-            <input type="checkbox" onChange={e => setPassword(e.target.value)}/>Remember me</label>
-            <a href="#" >Forget Password</a>
-        </div>
-        <div className='form-group'>
-            <button type='submit' className='btn btn-primary'>Login</button>
+            <button type='submit' className='btn btn-primary'>Register</button>
         </div>
         <div className="form-group">
-            <p>You have an account <a href="./LoginForm.jsx">Create an account</a></p>
+            <p>You have an account <a href="./LoginForm.jsx">Login to your Account</a></p>
         </div>
     </form>
     </div>
